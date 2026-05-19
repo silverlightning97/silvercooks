@@ -24,7 +24,10 @@
     "date": "05.2026",
     "location": "Tallinn",
     "image": "/images/restaurants/img8236.jpg",
-    "comment": "Onuga lõuna"
+    "comment": "Onuga lõuna",
+    "gallery": [
+      "/images/restaurants/img8236-1.jpg"
+    ]
   },
   {
     "title": "Cruffin brunch",
