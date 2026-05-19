@@ -1,33 +1,43 @@
 [
   {
-    "title": "Tuljak",
-    "date": "06.2023",
+    "title": "EV 108",
+    "date": "02.2026",
     "location": "Tallinn",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop",
-    "comment": "Amazing summer evening near the sea.",
-    "foods": [
-      "Steak 9/10",
-      "Truffle fries 10/10",
-      "Cheesecake 8/10"
-    ],
+    "image": "/images/restaurants/9b709c0c-a4f3-47a0-b55a-1e8a4f7237fc.jpg",
+    "comment": "Raneli ja Kataga"
+  },
+  {
+    "title": "Fish and chips (Ireland)",
+    "date": "05.2026",
+    "location": "Dublin",
+    "image": "/images/restaurants/fcd2b4a6-8183-43ac-aa80-f2cf5a568e22.jpg",
+    "comment": "Half and half fish and chips, shrimps. Vähe kastet"
+  },
+  {
+    "title": "Mon Repos",
+    "date": "01.2026",
+    "location": "Tallinn",
+    "image": "/images/restaurants/mon-repos-restoran-restaurant-review-vladislav-djatsuk-tallinn-estonia-food-foodie-eat-eating-fine-dining-best-tips-recommendation-guide-travel-2017-8.jpg",
+    "comment": "Sillu sünnipäev",
     "gallery": [
-      "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=800&auto=format&fit=crop"
+      "/images/restaurants/img6362.jpg",
+      "/images/restaurants/img9927.jpg",
+      "/images/restaurants/img6361.jpg"
     ]
   },
   {
-    "title": "Stefani",
-    "date": "08.2025",
-    "location": "Pärnu",
-    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1200&auto=format&fit=crop",
-    "comment": "Beautiful dinner during vacation.",
-    "foods": [
-      "Pizza 10/10",
-      "Seafood pasta 9/10",
-      "Tiramisu 9/10"
-    ],
+    "title": "Restoran Ribi",
+    "date": "05.2026",
+    "location": "Tallinn",
+    "image": "/images/restaurants/img8236.jpg",
+    "comment": "Onuga lõuna"
+  },
+  {
+    "title": "Cruffin brunch",
+    "location": "Tartu",
+    "comment": "Robiga",
     "gallery": [
-      "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=800&auto=format&fit=crop"
+      "/images/restaurants/img7903.jpg"
     ]
   }
 ]
