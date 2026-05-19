@@ -1,0 +1,105 @@
+media:
+  - name: images
+    label: Images
+    input: images
+    output: /images
+
+content:
+  - name: recipes
+    label: Recipes
+    type: file
+    path: data/recipes.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Food name
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - Morning
+            - Lunch
+            - Dinner
+            - Sweets
+            - Snacks
+      - name: time
+        label: Cooking time
+        type: string
+      - name: image
+        label: Main picture
+        type: image
+        options:
+          media: images
+          path: images/recipes
+          extensions: [jpg, jpeg, png, webp]
+          rename: true
+      - name: description
+        label: Short description
+        type: text
+      - name: ingredients
+        label: Ingredients
+        type: string
+        list:
+          collapsible:
+            collapsed: false
+            summary: "{index}. {value}"
+      - name: instructions
+        label: Instructions
+        type: text
+        list:
+          collapsible:
+            collapsed: false
+            summary: "Step {index}"
+
+  - name: restaurants
+    label: Restaurant Memories
+    type: file
+    path: data/restaurants.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Restaurant name
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: string
+        description: "Example: 06.2023 or 2025-08"
+      - name: location
+        label: Location
+        type: string
+      - name: image
+        label: Main picture
+        type: image
+        options:
+          media: images
+          path: images/restaurants
+          extensions: [jpg, jpeg, png, webp]
+          rename: true
+      - name: comment
+        label: Memory / comment
+        type: text
+      - name: foods
+        label: Food notes
+        type: string
+        list:
+          collapsible:
+            collapsed: false
+            summary: "{index}. {value}"
+      - name: gallery
+        label: Gallery pictures
+        type: image
+        options:
+          media: images
+          path: images/restaurants
+          multiple:
+            max: 20
+          unique: true
+          extensions: [jpg, jpeg, png, webp]
+          rename: true
