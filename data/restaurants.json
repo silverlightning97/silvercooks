@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Tuljak",
+    "date": "06.2023",
+    "location": "Tallinn",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop",
+    "comment": "Amazing summer evening near the sea.",
+    "foods": [
+      "Steak 9/10",
+      "Truffle fries 10/10",
+      "Cheesecake 8/10"
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "title": "Stefani",
+    "date": "08.2025",
+    "location": "Pärnu",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1200&auto=format&fit=crop",
+    "comment": "Beautiful dinner during vacation.",
+    "foods": [
+      "Pizza 10/10",
+      "Seafood pasta 9/10",
+      "Tiramisu 9/10"
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=800&auto=format&fit=crop"
+    ]
+  }
+]

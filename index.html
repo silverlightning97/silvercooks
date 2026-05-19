@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SilverCooks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1>SilverCooks</h1>
+      <p class="subtitle">Recipes and restaurant memories</p>
+    </div>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="recipes">Recipes</button>
+      <button class="tab" data-tab="restaurants">Restaurant Memories</button>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div id="recipe-panel">
+        <h2>Categories</h2>
+        <div class="category-buttons" id="category-buttons"></div>
+
+        <h2>Recipes</h2>
+        <div id="recipe-list"></div>
+      </div>
+
+      <div id="restaurant-panel" class="hidden">
+        <h2>Restaurant Memories</h2>
+        <div id="restaurant-list"></div>
+      </div>
+    </aside>
+
+    <section class="content" id="content"></section>
+  </main>
+
+  <footer class="footer">
+    <p>Edited with Pages CMS. Published with Cloudflare Pages.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
