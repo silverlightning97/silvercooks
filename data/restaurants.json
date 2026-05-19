@@ -4,7 +4,9 @@
     "date": "05.2026",
     "location": "Dublin",
     "image": "/images/restaurants/fcd2b4a6-8183-43ac-aa80-f2cf5a568e22.jpg",
-    "comment": "Half and half fish and chips, shrimps. Vähe kastet"
+    "foods": [
+      "Half and half fish and chips, shrimps. Vähe kastet"
+    ]
   },
   {
     "title": "Mon Repos",
