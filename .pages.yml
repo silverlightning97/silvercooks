@@ -27,9 +27,6 @@ content:
             - Dinner
             - Sweets
             - Snacks
-      - name: time
-        label: Cooking time
-        type: string
       - name: image
         label: Main picture
         type: image
