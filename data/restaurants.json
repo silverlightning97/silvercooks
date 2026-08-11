@@ -41,5 +41,14 @@
     "date": "11.2025",
     "location": "Merivälja",
     "image": "/images/restaurants/noa-chefs-hall-nch-022-visit-estonia.png"
+  },
+  {
+    "title": "Supelsaksad",
+    "date": "12.06.2026",
+    "image": "/images/restaurants/img9178.jpg",
+    "comment": "Karbid musta pastaga",
+    "gallery": [
+      "/images/restaurants/img9178-1.jpg"
+    ]
   }
 ]
