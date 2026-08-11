@@ -102,5 +102,20 @@
       "Sidrun",
       "Või praadimiseks"
     ]
+  },
+  {
+    "title": "Suvikõrvitsakotletid",
+    "category": "Dinner",
+    "image": "/images/recipes/img9004.png",
+    "description": "Laureni instast",
+    "ingredients": [
+      "Kanahakkliha",
+      "Suvikõrvits",
+      "sibul",
+      "kodujuust",
+      "till",
+      "muna",
+      "riivsai"
+    ]
   }
 ]
